@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Tasks_Project.Models.Task>
+@{
+    ViewData["Title"] = "View Survey";
+}
+<head>
+    <script src="https://kit.fontawesome.com/42daf7d6ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    @foreach (var task in Model)
+    {
+        <h5 style="margin-left:1%" id="task"><i class="fas fa-circle"></i> @task.Name</h5>
+        if (task.Steps != null)
+        {
+            @foreach (var step in task.Steps)
+            {
+                <h6 style="margin-left:3%" id="stepName"><i class="far fa-circle"></i> @step.Name - @step.Owner</h6>
+
+                if (step.LittleSteps != null)
+                {
+                    @foreach (var littleStep in step.LittleSteps)
+                    {
+                        <h6 style="margin-left:5%" id="littleStepName"><i class="fas fa-star"></i> @littleStep.Name - @littleStep.Owner</h6>
+                    }
+                }
+
+            }
+        }
+        <br />
+    }
+
+
+</body>
