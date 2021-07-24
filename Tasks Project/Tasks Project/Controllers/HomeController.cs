@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using Tasks_Project.Models;
-using Tasks_Project.Services.Interfaces;
 using Tasks_Project.Models.Data;
+using Tasks_Project.Services.Interfaces;
 
 namespace Tasks_Project.Controllers
 {
@@ -30,14 +30,23 @@ namespace Tasks_Project.Controllers
             {
                 List<Step> steps = new List<Step>();
                 steps = stepService.GetStepsForTask(task.Id);
-                task.Steps = steps;
+                
 
                 foreach(var step in steps)
                 {
-                    List<LittleStep> littleSteps = new List<LittleStep>();
-                    littleSteps = stepService.GetLittleStepsForStep(step.Id);
-                    step.LittleSteps = littleSteps;
+                        List<Step> littleSteps = new List<Step>();
+                        littleSteps = stepService.GetLittleStepsForStep(step.Id);
+                        step.LittleSteps = littleSteps;
                 }
+                List<Step> bigSteps = new List<Step>();
+                foreach (var step in steps)
+                {
+                    if (!step.IsLittleStep)
+                    {
+                        bigSteps.Add(step);
+                    }
+                }
+                task.Steps = bigSteps;
             }
 
             return View(tasks);
@@ -52,16 +61,24 @@ namespace Tasks_Project.Controllers
             {
                 List<Step> steps = new List<Step>();
                 steps = stepService.GetStepsForTask(task.Id);
-                task.Steps = steps;
+
 
                 foreach (var step in steps)
                 {
-                    List<LittleStep> littleSteps = new List<LittleStep>();
+                    List<Step> littleSteps = new List<Step>();
                     littleSteps = stepService.GetLittleStepsForStep(step.Id);
                     step.LittleSteps = littleSteps;
                 }
+                List<Step> bigSteps = new List<Step>();
+                foreach (var step in steps)
+                {
+                    if (!step.IsLittleStep)
+                    {
+                        bigSteps.Add(step);
+                    }
+                }
+                task.Steps = bigSteps;
             }
-
             return View(tasks);
         }
 

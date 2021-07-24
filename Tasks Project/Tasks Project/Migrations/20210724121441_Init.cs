@@ -27,11 +27,19 @@ namespace Tasks_Project.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(30)", nullable: true),
                     Owner = table.Column<string>(type: "nvarchar(30)", nullable: true),
-                    TaskId = table.Column<int>(type: "int", nullable: true)
+                    IsLittleStep = table.Column<bool>(type: "bit", nullable: false),
+                    TaskId = table.Column<int>(type: "int", nullable: true),
+                    StepId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Steps", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Steps_Steps_StepId",
+                        column: x => x.StepId,
+                        principalTable: "Steps",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Steps_Tasks_TaskId",
                         column: x => x.TaskId,
@@ -41,41 +49,56 @@ namespace Tasks_Project.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "LittleSteps",
+                name: "StepsRelations",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(30)", nullable: true),
-                    Owner = table.Column<string>(type: "nvarchar(30)", nullable: true),
-                    StepId = table.Column<int>(type: "int", nullable: true)
+                    BigStepId = table.Column<int>(type: "int", nullable: true),
+                    LittleStepId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_LittleSteps", x => x.Id);
+                    table.PrimaryKey("PK_StepsRelations", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_LittleSteps_Steps_StepId",
-                        column: x => x.StepId,
+                        name: "FK_StepsRelations_Steps_BigStepId",
+                        column: x => x.BigStepId,
+                        principalTable: "Steps",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_StepsRelations_Steps_LittleStepId",
+                        column: x => x.LittleStepId,
                         principalTable: "Steps",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_LittleSteps_StepId",
-                table: "LittleSteps",
+                name: "IX_Steps_StepId",
+                table: "Steps",
                 column: "StepId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Steps_TaskId",
                 table: "Steps",
                 column: "TaskId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_StepsRelations_BigStepId",
+                table: "StepsRelations",
+                column: "BigStepId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_StepsRelations_LittleStepId",
+                table: "StepsRelations",
+                column: "LittleStepId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "LittleSteps");
+                name: "StepsRelations");
 
             migrationBuilder.DropTable(
                 name: "Steps");

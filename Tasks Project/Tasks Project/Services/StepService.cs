@@ -3,6 +3,7 @@ using System.Linq;
 using Tasks_Project.Services.Interfaces;
 using Tasks_Project.Models;
 using Tasks_Project.Models.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Tasks_Project.Services
 {
@@ -22,21 +23,31 @@ namespace Tasks_Project.Services
             context.SaveChanges();
             return step.Id;
         }
-
-        public int AddLittleStep(LittleStep littleStep)
+        public int AddStepsRelation(StepsRelation stepsRelation)
         {
-            context.LittleSteps.Add(littleStep);
-            context.Entry(littleStep.Step).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+            context.StepsRelations.Add(stepsRelation);
             context.SaveChanges();
-            return littleStep.Id;
+            return stepsRelation.Id;
         }
         public List<Step> GetStepsForTask(int taskId)
         {
             return context.Steps.Where(x => x.Task.Id == taskId).ToList();
         }
-        public List<LittleStep> GetLittleStepsForStep(int stepId)
+        public List<Step> GetLittleStepsForStep(int stepId)
         {
-            return context.LittleSteps.Where(x => x.Step.Id == stepId).ToList();
+            List<StepsRelation> stepsRelations = new List<StepsRelation>();
+            stepsRelations = context.StepsRelations.Where(x => x.BigStep.Id == stepId).Include(x => x.LittleStep).ToList();
+
+            List<Step> littleSteps = new List<Step>();
+            foreach(var stepsRelation in stepsRelations)
+            {
+                littleSteps.Add(GetStepById(stepsRelation.LittleStep.Id));
+            }
+            return littleSteps;
+        }
+        public Step GetStepById(int stepId)
+        {
+            return context.Steps.Where(x => x.Id == stepId).FirstOrDefault();
         }
     }
 }

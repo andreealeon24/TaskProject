@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UUm6JbSYRiJuldfxstJe0BmiZ8/82TVIqKqPdb2ADsZga/HXBe7JLh2GEadojyuyC4N/aNlKIs1G41zYFbM96g==",
+  "dgSpecHash": "QiijD8/XmfM6RTEyRXaiVVDXwdqGhw0vt121r+OOekLngs3baJxEb0rToLXQk7RfR5F7zyCRMD0wVnMiMxyiGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andreea\\Desktop\\Tasks Project\\Tasks Project\\Tasks Project\\Tasks Project.csproj",
+  "projectFilePath": "C:\\Users\\Andreea\\Desktop\\TaskProject\\Tasks Project\\Tasks Project\\Tasks Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andreea\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Andreea\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

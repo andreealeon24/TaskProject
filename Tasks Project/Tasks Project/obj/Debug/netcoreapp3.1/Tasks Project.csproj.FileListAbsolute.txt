@@ -78,3 +78,163 @@ C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\Tasks Project\bin\Debug\net
 C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\LazyLoaded.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csprojAssemblyReference.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.AssemblyInfoInputs.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.AssemblyInfo.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csproj.CoreCompileInputs.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorAssemblyInfo.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorAssemblyInfo.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.exe
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.deps.json
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.runtimeconfig.json
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.runtimeconfig.dev.json
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.Views.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.Views.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\staticwebassets\Tasks Project.StaticWebAssets.Manifest.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\staticwebassets\Tasks Project.StaticWebAssets.xml
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\scopedcss\bundle\Tasks Project.styles.css
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.TagHelpers.input.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.TagHelpers.output.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorCoreGenerate.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\LazyLoaded.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorTargetAssemblyInfo.cache
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorTargetAssemblyInfo.cs
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.Views.pdb
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csproj.CopyComplete
+C:\Users\Andreea\Desktop\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.genruntimeconfig.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.exe
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.deps.json
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.runtimeconfig.json
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.runtimeconfig.dev.json
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.Views.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Tasks Project.Views.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csprojAssemblyReference.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.AssemblyInfoInputs.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.AssemblyInfo.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csproj.CoreCompileInputs.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorAssemblyInfo.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorAssemblyInfo.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\staticwebassets\Tasks Project.StaticWebAssets.Manifest.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\staticwebassets\Tasks Project.StaticWebAssets.xml
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\scopedcss\bundle\Tasks Project.styles.css
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.TagHelpers.input.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.TagHelpers.output.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorCoreGenerate.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\LazyLoaded.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorTargetAssemblyInfo.cache
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.RazorTargetAssemblyInfo.cs
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.Views.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.csproj.CopyComplete
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.dll
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.pdb
+C:\Users\Andreea\Desktop\TaskProject\Tasks Project\Tasks Project\obj\Debug\netcoreapp3.1\Tasks Project.genruntimeconfig.cache

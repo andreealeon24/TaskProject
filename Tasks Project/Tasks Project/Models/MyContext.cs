@@ -12,6 +12,6 @@ namespace Tasks_Project.Models
         public MyContext(DbContextOptions<MyContext> options) : base(options) { }
         public DbSet<Task> Tasks { get; set; }
         public DbSet<Step> Steps {get; set;}
-        public DbSet<LittleStep> LittleSteps { get; set; }
+        public DbSet<StepsRelation> StepsRelations { get; set; }
     }
 }

@@ -10,7 +10,7 @@ using Tasks_Project.Models;
 namespace Tasks_Project.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20210723110357_Init")]
+    [Migration("20210724121441_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,12 +21,37 @@ namespace Tasks_Project.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Tasks_Project.Models.Data.LittleStep", b =>
+            modelBuilder.Entity("Tasks_Project.Models.Data.StepsRelation", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("BigStepId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LittleStepId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BigStepId");
+
+                    b.HasIndex("LittleStepId");
+
+                    b.ToTable("StepsRelations");
+                });
+
+            modelBuilder.Entity("Tasks_Project.Models.Step", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("IsLittleStep")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(30)");
@@ -37,30 +62,12 @@ namespace Tasks_Project.Migrations
                     b.Property<int?>("StepId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("StepId");
-
-                    b.ToTable("LittleSteps");
-                });
-
-            modelBuilder.Entity("Tasks_Project.Models.Step", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(30)");
-
-                    b.Property<string>("Owner")
-                        .HasColumnType("nvarchar(30)");
-
                     b.Property<int?>("TaskId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("StepId");
 
                     b.HasIndex("TaskId");
 
@@ -82,17 +89,27 @@ namespace Tasks_Project.Migrations
                     b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("Tasks_Project.Models.Data.LittleStep", b =>
+            modelBuilder.Entity("Tasks_Project.Models.Data.StepsRelation", b =>
                 {
-                    b.HasOne("Tasks_Project.Models.Step", "Step")
-                        .WithMany("Steps")
-                        .HasForeignKey("StepId");
+                    b.HasOne("Tasks_Project.Models.Step", "BigStep")
+                        .WithMany()
+                        .HasForeignKey("BigStepId");
 
-                    b.Navigation("Step");
+                    b.HasOne("Tasks_Project.Models.Step", "LittleStep")
+                        .WithMany()
+                        .HasForeignKey("LittleStepId");
+
+                    b.Navigation("BigStep");
+
+                    b.Navigation("LittleStep");
                 });
 
             modelBuilder.Entity("Tasks_Project.Models.Step", b =>
                 {
+                    b.HasOne("Tasks_Project.Models.Step", null)
+                        .WithMany("LittleSteps")
+                        .HasForeignKey("StepId");
+
                     b.HasOne("Tasks_Project.Models.Task", "Task")
                         .WithMany("Steps")
                         .HasForeignKey("TaskId");
@@ -102,7 +119,7 @@ namespace Tasks_Project.Migrations
 
             modelBuilder.Entity("Tasks_Project.Models.Step", b =>
                 {
-                    b.Navigation("Steps");
+                    b.Navigation("LittleSteps");
                 });
 
             modelBuilder.Entity("Tasks_Project.Models.Task", b =>
