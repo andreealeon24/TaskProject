@@ -6,28 +6,46 @@
     <script src="https://kit.fontawesome.com/42daf7d6ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="treeview">
+        <h6 class="pt-3 pl-3">Tasks</h6>
 
-    @foreach (var task in Model)
-    {
-        <h5 style="margin-left:1%" id="task"><i class="fas fa-circle"></i> @task.Name</h5>
-        if (task.Steps != null)
-        {
-            @foreach (var step in task.Steps)
+        <hr>
+        <ul class="mb-1 pl-3 pb-2">
+            @foreach (var task in Model)
             {
-                <h6 style="margin-left:3%" id="stepName"><i class="far fa-circle"></i> @step.Name - @step.Owner</h6>
-
-                if (step.LittleSteps != null)
-                {
-                    @foreach (var littleStep in step.LittleSteps)
+                <li>
+                    @task.Name
+                    @if (task.Steps != null)
                     {
-                        <h6 style="margin-left:5%" id="littleStepName"><i class="fas fa-star"></i> @littleStep.Name - @littleStep.Owner</h6>
+                        <ul class="nested">
+                            @foreach (var step in task.Steps)
+                            {
+                                <li> @step.Name - @step.Owner</li>
+
+                                if (step.LittleSteps != null)
+                                {
+                                    <ul class="nested">
+                                        @foreach (var littleStep in step.LittleSteps)
+                                        {
+                                            <li> @littleStep.Name - @littleStep.Owner</li>
+                                            if (littleStep.LittleSteps != null)
+                                            {
+                                                <ul class="nested">
+                                                    @foreach (var littleStep2 in littleStep.LittleSteps)
+                                                    {
+                                                        <li>@littleStep2.Name - @littleStep2.Owner</li>
+                                                    }
+                                                </ul>
+                                            }
+                                        }
+                                    </ul>
+                                }
+
+                            }
+                        </ul>
                     }
-                }
-
+                </li>
             }
-        }
-        <br />
-    }
-
-
+        </ul>
+    </div>
 </body>
